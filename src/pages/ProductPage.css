@@ -1,0 +1,57 @@
+.ProductPage {
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+}
+
+.description {
+    margin-top: 50px;
+    flex-direction: column;
+}
+
+.image {
+    object-fit: cover;
+}
+
+@media (max-width: 700px) {
+    .ProductPage {
+        flex-direction: column;
+    }
+
+    .image {
+        width: 100%;
+        height: auto;
+    }
+
+    .description {
+        text-align: center;
+    }
+
+    .formContainer {
+        padding: 5vw;
+    }
+
+    .details {
+        display: inline-block;
+        text-align: left;
+    }
+}
+
+@media (min-width: 701px) {
+    .image {
+        margin: 50px;
+        width: 40%;
+        height: 80vh;
+        overflow: hidden;
+    }
+
+    .formContainer {
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+}
+
+h3 {
+    margin-top: 60px;
+    text-align: center;
+}

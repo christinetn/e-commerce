@@ -1,0 +1,38 @@
+.Products {
+    background-color: #ffffff;
+}
+
+.productTable {
+    margin: 2%;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.productCard {
+    transition: transform 0.5s ease, box-shadow .3s;
+    margin-bottom: 20px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.productCard:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+}
+
+.productImage {
+    display: block;
+    width: auto;
+    height: 25vh;
+    object-fit: cover;
+}
+
+.itemPrice {
+    font-weight: bold;
+}

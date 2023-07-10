@@ -1,0 +1,39 @@
+.checkOut {
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+}
+
+h4 {
+    text-align: center;
+}
+
+@media (max-width: 700px) {
+    .ProductPage {
+        flex-direction: column;
+    }
+
+    .orderDetails {
+        width: 100%;
+        text-align: center;
+    }
+
+    .formContainer {
+        padding: 5vw;
+    }
+}
+
+@media (min-width: 701px) {
+    .orderDetails {
+        margin: 50px;
+        width: 40%;
+        height: 80vh;
+        overflow: hidden;
+    }
+
+    .formContainer {
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+}

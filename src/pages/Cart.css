@@ -1,0 +1,41 @@
+.cartPage {
+    flex-direction: row;
+    display: flex;
+}
+
+.cartTitle {
+    align-self: left;
+    text-align: left;
+    padding-left: 5vw;
+    padding-top: 3vw;
+}
+
+.cartItems {
+    margin-top: 50px;
+    margin-right: 10px;
+    flex-direction: column;
+    width: 75%;
+    padding-left: 3vw;
+}
+
+.orderTotal {
+    margin-top: 50px;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    width: 20%;
+    text-align: center;
+    right: 0;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+   
+}
+
+@media (max-width: 700px) {
+    .cartPage {
+        flex-direction: column;
+    }
+
+    .cartItems {
+        width: 100%;
+    }
+}

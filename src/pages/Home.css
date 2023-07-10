@@ -1,0 +1,30 @@
+.Home {
+    background-color: #ffffff;
+}
+
+.bg {
+    background-image: url("../assets/homeBackground2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(2px);
+    min-height: 75vh;
+    min-width: 100vw;
+}
+
+.title {
+    background-color: rgba(0,0,0,0.6);
+    color: #f5f2d0;
+    border: 2px solid #000000;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50vw;
+    z-index: 2;
+    padding: 2.5%;
+}
+
+.shopButton {
+    padding-top: 5vh;
+}

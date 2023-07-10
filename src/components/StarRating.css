@@ -1,0 +1,19 @@
+button {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+
+}
+
+.star{
+    outline:green;
+    position:relative;
+    
+}
+
+.on {
+  color: green;
+}
+.off {
+  color: lightgray;
+}
